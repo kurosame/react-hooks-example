@@ -1,0 +1,41 @@
+{
+  "name": "react-hooks-example",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "clean": "rimraf ./dist/**/*"
+  },
+  "dependencies": {
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0",
+    "styled-components": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "@kurosame/stylelint-config-react": "^1.0.0",
+    "@kurosame/tslint-config-react": "^1.0.0",
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "awesome-typescript-loader": "^5.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "fork-ts-checker-webpack-plugin": "^0.4.1",
+    "hard-source-webpack-plugin": "^0.6.6",
+    "html-webpack-plugin": "^3.2.0",
+    "stylelint": "^8.0.0",
+    "stylelint-custom-processor-loader": "^0.5.0",
+    "tslint": "^5.10.0",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.0.0",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
